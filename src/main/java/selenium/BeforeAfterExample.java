@@ -30,7 +30,7 @@ public class BeforeAfterExample {
 		System.out.println("first");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=3)
 	private static void second() {
 		System.out.println("second");
 	}
